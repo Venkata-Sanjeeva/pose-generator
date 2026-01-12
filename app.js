@@ -33,7 +33,7 @@ document.getElementById('female-btn').addEventListener('click', () => showPoses(
 
 // Generate QR Code
 new QRCode(document.getElementById("qrcode"), {
-    text: window.location.href,
+    text: "https://venkata-sanjeeva.github.io/pose-generator/",
     width: 150,
     height: 150
 });
